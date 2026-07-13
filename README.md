@@ -37,7 +37,7 @@ Press Enter and wait a few seconds for it to finish. You only need to do this on
 Create a new folder on your Desktop (for example, “Wix_to_Shopify_migration”). 
 Inside it, create another folder called “input” — this is where all your WIX export files will go.
 Your folder structure should look like this:
-Wix_to_Shopify_migration
+Wix_to_Shopify_migration/
   converter.py
   input/
     wix_products.csv
