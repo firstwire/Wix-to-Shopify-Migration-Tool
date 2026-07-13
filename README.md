@@ -6,6 +6,7 @@ Please see the detailed instructions at
 
 See the code and guide below.
 
+
 **Step 1 — Install Python (one-time setup)**
 
 Python is the free program that runs the script. If you already have Python installed, skip to Step 2.
@@ -25,12 +26,14 @@ python --version
 
 If you see a version number like “Python 3.12.0”, you are ready for Step 2.
 
+
 **Step 2 — Install the Required Add-ons**
 
 The script needs two free add-on packages to read Excel/CSV files. Open your terminal and type this single line:
 pip install pandas openpyxl
 
 Press Enter and wait a few seconds for it to finish. You only need to do this once.
+
 
 **Step 3 — Save Your Files in One Folde**r
 
@@ -54,6 +57,7 @@ Place the script file directly inside “Wix_to_Shopify_migration”, and place 
 
 You do not need all three files. Only include the ones you want to convert.
 
+
 **Step 4 — Run the Script**
 
 5.	Open your terminal.
@@ -62,9 +66,13 @@ cd Desktop/Wix_to_Shopify_migration
 7.	Run the script by typing:
 
 python converter.py --type products (If you want convert only products)
+
 python converter.py --type orders (If you want convert only orders)
+
 python converter.py --type customers (If you want convert only customers)
+
 python converter.py --type all (If you want convert all (products, customers and orders) )
+
 
 **Step 5 — Find Your Converted Files**
 
@@ -73,6 +81,7 @@ File Name	What It Contains
 shopify_products.csv	Your products, ready for Shopify
 shopify_customers.csv	Your customers, ready for Shopify
 shopify_orders.csv	Your orders, ready for the Matrixify app
+
 
 **Step 6 — Import Into Shopify**
 
