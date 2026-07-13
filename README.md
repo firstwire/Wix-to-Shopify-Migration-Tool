@@ -86,6 +86,7 @@ shopify_orders.csv	Your orders, ready for the Matrixify app
 **Step 6 — Import Into Shopify**
 
 Products
+
 9.	In Shopify Admin, go to Products.
 10.	Click the Import button (top right).
 11.	Choose the file shopify_products.csv and click Upload.
