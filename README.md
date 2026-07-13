@@ -29,8 +29,8 @@ If you see a version number like “Python 3.12.0”, you are ready for Step 2.
 
 **Step 2 — Install the Required Add-ons**
 
-The script needs two free add-on packages to read Excel/CSV files. Open your terminal and type this single line:
-pip install pandas openpyxl
+The script needs one free add-on packages to read CSV files. Open your terminal and type this single line:
+pip install pandas
 
 Press Enter and wait a few seconds for it to finish. You only need to do this once.
 
@@ -113,7 +113,7 @@ Problem	- Solution
 
 “python is not recognized”	Reinstall Python and make sure to tick “Add Python to PATH”
 
-“No module named pandas”	Run: pip install pandas openpyxl
+“No module named pandas”	Run: pip install pandas
 
 File not found Make sure the CSV file is in the same folder structure as described in Step 3, and that you typed the correct command as mentioned in Step 4.
 
